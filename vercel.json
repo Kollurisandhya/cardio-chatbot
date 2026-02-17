@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:match([a-z0-9]{8}/.*)",
+      "destination": "/api/p/[...path].js"
+    }
+  ]
+}
